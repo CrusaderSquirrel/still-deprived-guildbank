@@ -1,0 +1,38 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f1220;
+  color: #eaeaf0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 500px;
+}
+
+.progress {
+  background: #22253a;
+  border-radius: 8px;
+  height: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #7c7cff, #4ade80);
+  transition: width 0.5s ease;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 6px 0;
+  border-bottom: 1px solid #2a2d45;
+}
